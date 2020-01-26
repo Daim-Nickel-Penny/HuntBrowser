@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/it_back"
+        android:icon="@drawable/ic_navigateback"
+        android:title="Backward"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/it_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="Refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/it_forward"
+        android:icon="@drawable/ic_navigate"
+        android:title="Forward"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/it_save"
+        android:icon="@drawable/ic_save"
+        android:title="Kill the Boredom"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/it_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/it_why"
+        android:title="Why this?"
+        app:showAsAction="collapseActionView"
+
+        />
+    <item
+        android:id="@+id/it_mail"
+        android:icon="@drawable/ic_mail_black_24dp"
+        android:title="Mail us"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/it_social"
+        android:title="Social Media"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/it_rate"
+        android:icon="@drawable/ic_grade_black_24dp"
+        android:title="Rate"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/it_me"
+        android:icon="@drawable/ic_sentiment"
+        android:title="Daim Khan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/it_exit"
+        android:icon="@drawable/ic_exit"
+        android:title="Exit"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
