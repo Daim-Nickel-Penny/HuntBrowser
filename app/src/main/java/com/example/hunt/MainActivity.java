@@ -230,7 +230,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.it_me:
-                Toast.makeText(getApplicationContext(), "Knock-Knock Dekho Tera Baap Aya", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Hello!!!", Toast.LENGTH_LONG).show();
                 break;
 
             case R.id.it_back:
